@@ -13,6 +13,7 @@ Initialization
 
 * Start couchdb
 
+
     git clone git://github.com/jsorg/jsorg.git
     cd jsorg
     git submodule init
