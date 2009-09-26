@@ -1,0 +1,9 @@
+[submodule "_attachments/dijit"]
+	path = _attachments/dijit
+	url = git://github.com/dojo/dijit.git
+[submodule "_attachments/dojo"]
+	path = _attachments/dojo
+	url = git://github.com/dojo/dojo.git
+[submodule "_attachments/dojox"]
+	path = _attachments/dojox
+	url = git://github.com/dojo/dojox.git
