@@ -11,7 +11,7 @@ Tools needed
 Initialization
 --------------
 
-* Start couchdb
+Start couchdb
 
 
     git clone git://github.com/jsorg/jsorg.git
@@ -20,4 +20,4 @@ Initialization
     sudo easy_install -U couchapp
     couchapp push
 
-* Browse http://localhost:5984/jsorg/_design/jsorg/jsorg.html
+Browse [http://localhost:5984/jsorg/_design/jsorg/jsorg.html]
