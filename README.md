@@ -20,4 +20,4 @@ Start couchdb
     sudo easy_install -U couchapp
     couchapp push
 
-Browse [http://localhost:5984/jsorg/_design/jsorg/jsorg.html]
+Browse [http://localhost:5984/jsorg/_design/jsorg/jsorg.html](http://localhost:5984/jsorg/_design/jsorg/jsorg.html)
