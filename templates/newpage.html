@@ -2,8 +2,22 @@
 <html>
  <head>
   <title>New page</title>
+  <link rel="stylesheet" href="../../dijit/themes/tundra/tundra.css" />
+  <script src="../../dojo/dojo.js">
+  </script>
+  <script>
+    dojo.require("jsorg.Editor");
+    dojo.addOnLoad(function() {
+
+    var obj = new jsorg.Editor({}, dojo.byId("jsorg.Editor"));
+
+
+});
+
+  </script>
  </head>
- <body>
+ <body class="tundra">
    <h1>New page</h1>
+   <div id="jsorg.Editor"></div>
  </body>
 </html>
