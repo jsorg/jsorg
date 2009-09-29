@@ -18,11 +18,14 @@ dojo.declare(
 	save: function(e) {
 	    e.preventDefault();
 	    this.logNode.textContent = 'Saving document...';
+	    var locs = location.href.match(/\/([^\/]+)$/);
 	    Doc = this.db.getConstructor();
 	    doc = new Doc();
-	    doc['_id']  = 'foobar';
-	    doc['html'] = this.editor.getValue(false);
-	    doc['type'] = 'doc';
+	    doc['_id']    = locs[1];
+	    doc['title']  = locs[1];
+	    doc['html']   = this.editor.getValue(false);
+	    doc['source'] = this.editor.getValue(false);
+	    doc['type']   = 'doc';
 	    this.db.save();
 	    this.logNode.textContent = '';
 	},
