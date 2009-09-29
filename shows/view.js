@@ -1,7 +1,7 @@
-function(doc) {
-    // !code lib/template.js
-    // !json templates
+// !code lib/template.js
+// !json templates
 
+function(doc) {
     if(doc)
 	return template(templates.view, doc);
     else 
